@@ -1,6 +1,9 @@
 # service-client
 
-Expressive client library for Java using (async-http-client)[https://github.com/AsyncHttpClient/async-http-client]
+Expressive client library for Java using (https://github.com/AsyncHttpClient/async-http-client)[async-http-client]
+
+This library is inspired from the **NodeJS** styled callback invocation of **HttpClient** calls.
+
 
 ## Installation
 
@@ -16,6 +19,31 @@ Add dependency to the package `service-client`
 ```
 
 ## Usage
+
+### Define Configuration properties for the Service definition in `\src\main\resources\application.json` file.
+
+> Configuration Example
+
+```json
+{
+  "services": {
+    "foo": {
+      "method": "GET",
+      "basePath": "http://127.0.0.1:3000/v1/ffs",
+      "headers": {
+
+      },
+      "params": {
+
+      },
+      "instruments": []
+    }
+  }
+}
+
+```
+
+
 
 ```Java
 
