@@ -1,0 +1,15 @@
+{
+  "services": {
+    "foo": {
+      "method": "GET",
+      "basePath": "http://127.0.0.1:3000/v1/ffs",
+      "headers": {
+
+      },
+      "params": {
+
+      },
+      "instruments": []
+    }
+  }
+}
