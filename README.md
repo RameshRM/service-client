@@ -59,3 +59,8 @@ public boolean callback(Exception e, ServiceResponse r) {
 }
 
 ```
+
+
+# Todo
+
+1. Support simple transport to be integrated as a plugin.
